@@ -22,7 +22,7 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="css/responsive.css" />
    <!-- Map -->
-   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+   <link rel="stylesheet" href="css/leaflet-0.7.3.css" />
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
    <!--[if lt IE 9]>
@@ -338,7 +338,7 @@
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>
    <!-- map -->
-   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+   <script src="js/leaflet-0.7.3.js"></script>
    <script>
       // Creating map options
       var mapOptions = {
@@ -350,7 +350,7 @@
       var map = new L.map('map', mapOptions);
 
       // Creating a Layer object
-      var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+      var layer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
       // Adding layer to the map
       map.addLayer(layer);
