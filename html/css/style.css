@@ -27,9 +27,9 @@ Silver Tree
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
-@import url(css/normalize.css);
-@import url(css/font-awesome.min.css);
-@import url(css/jquery-ui.css);
+@import url(normalize.css);
+@import url(font-awesome.min.css);
+@import url(jquery-ui.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
